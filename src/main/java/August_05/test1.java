@@ -21,7 +21,7 @@ public class test1 {
 
         /**
          * 虽然==比较的是地址值，但是integer在-128～127的范围内，使用的是常量池的值，因此j 的地址值也是与i 的一样
-         * 
+         *
          * Integer重写了equals方法会先转成int再进行比较
          */
         int i=0;
