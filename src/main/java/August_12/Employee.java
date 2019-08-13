@@ -11,7 +11,7 @@ package August_12;
 class Employee extends Person {
     String empID = "0000";
     public Employee(String id) {
-//        super("");
+        super("");//没有
         empID = id;
     }
 }
