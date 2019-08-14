@@ -14,14 +14,17 @@ public class Demo {
     }
 
     public static int test(int b) {
+        int a= 1;
+        int c = 2;
         try {
-            b += 10;
+            b = b+a;
             return b;
         } catch (RuntimeException e) {
         } catch (Exception e2) {
         } finally {
-            b += 10;
+            b = b+c;
             return b;
         }
     }
+    //finally中如果包含return，那么程序将在这里返回!
 }
