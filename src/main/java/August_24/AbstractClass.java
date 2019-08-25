@@ -12,7 +12,7 @@ package August_24;
 public abstract class AbstractClass {
     public abstract int add(int a,int b);
 
-    public abstract synchronized int div(int a ,int b);
+//    public abstract synchronized int div(int a ,int b);
 
-    public abstract static int asd(int a,int b);
+//    public abstract static int asd(int a,int b);
 }
