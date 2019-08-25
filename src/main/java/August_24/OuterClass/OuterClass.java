@@ -1,4 +1,4 @@
-package August_24;
+package August_24.OuterClass;
 
 public class OuterClass {
     private String name ;

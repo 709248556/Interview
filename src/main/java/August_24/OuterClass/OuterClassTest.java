@@ -1,4 +1,4 @@
-package August_24;
+package August_24.OuterClass;
 
 /**
  * @author yan
